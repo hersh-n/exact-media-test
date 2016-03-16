@@ -139,9 +139,14 @@ $(".btn").click(function(){
     });
 });
 
+function scrollToAnchor(aid){
+    var aTag = $("a[name='"+ aid +"']");
+    $('html,body').animate({scrollTop: aTag.offset().top},'slow');
+}
+
+$("#link-three").click(function() {
+   scrollToAnchor('idthree');
+});
 
 
 
-// $('#myModal').on('shown.bs.modal', function () {
-//   $('#myInput').focus()
-// })

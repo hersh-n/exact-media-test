@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Exact Inventory</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="generator" content="Codeply">
+    <link href='https://fonts.googleapis.com/css?family=Oxygen' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="styles/main.css">
+  </head>
+
+  <body>
+
+  <nav class="navbar navbar-fixed-top">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        </button>
+      <!-- <a class="navbar-brand" href="#first"><img src="assets/images/wave_white-compressor.png" style="width: 100px"></a> -->
+      </div>
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+          <li><a id='link-first' class="site-link">DASHBOARD</a></li>
+          <li><a id='link-first' class="site-link">DATA</a></li>
+          <li><a id='link-three' class="site-link">INVENTORY</a></li>
+          <li><a id='link-two' class="site-link">SETTINGS</a></li>
+          <li><a id='link-last' class="site-link">MY ACCOUNT</a></li>
+
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
+
+  <header class="header">
+      <div class="row">
+        <div class="col-lg-9 col-md-9">
+          <div class="header-content">
+            <div class="jumbotron">
+              <h1 style="color:white;">Exact Inventory Control System</h1>
+              <h2>Welcome Store Owner 1</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+  </header>
+  <span class='bottom_header'></span>
+
+  <div class='content'>
+
+
+
+
+    <div id="wrapper">
+      <a name='idthree' class="anchor"></a>
+      <section id='one'class='container-fluid'>
+
+
+
+        <div class='container'>
+          <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 text-center">
+              <hr>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 text-center">
+              <h1 class='title'>Inventory</h1>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 text-center">
+              <hr>
+            </div>
+          </div>
+
+          <table class="table table-hover">
+            <thead>
+              <tr>
+                <th>#</th>
+                <th colspan='3'>Product</th>
+                <th>Stock Left</th>
+                <th>Last Shipment</th>
+                <th>Total Earnings</th>
+                <th>Cost Per Unit</th>
+                <th>Retail Price</th>
+              </tr>
+            </thead>
+
+            <tbody>
+              <tr>
+
+                <th scope="row">1</th>
+                <td colspan='3'><a data-toggle="modal" data-target="#myModal" class='list-item'>Butterfinger Peanut Butter Cups Minis</a></td>
+                <td>10</td>
+                <td>15/04/2016</td>
+                <td>100</td>
+                <td>100</td>
+                <td>100</td>
+
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td colspan='3'><a data-toggle="modal" data-target="#myModal" class='list-item'>All Natural Beef Jerky</a></td>
+                <td>10</td>
+                <td>15/04/2016</td>
+                <td>100</td>
+                <td>100</td>
+                <td>100</td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td colspan='3'><a data-toggle="modal" data-target="#myModal" class='list-item'>Kellogg’s Pringles with Dip</a></td>
+                <td>10</td>
+                <td>15/04/2016</td>
+                <td>100</td>
+                <td>100</td>
+                <td>100</td>
+              </tr>
+              <tr>
+                <th scope="row">4</th>
+                <td colspan='3'><a data-toggle="modal" data-target="#myModal" class='list-item'>Hershey’s Caramels</a></td>
+                <td>10</td>
+                <td>15/04/2016</td>
+                <td>100</td>
+                <td>100</td>
+                <td>100</td>
+              </tr>
+              <tr>
+                <th scope="row">5</th>
+                <td colspan='3'><a data-toggle="modal" data-target="#myModal" class='list-item'>Hot Pockets Panada</a></td>
+                <td>10</td>
+                <td>15/04/2016</td>
+                <td>100</td>
+                <td>100</td>
+                <td>100</td>
+              </tr>
+              <tr>
+                <th scope="row">6</th>
+                <td colspan='3'><a data-toggle="modal" data-target="#myModal" class='list-item'>Brownie Bite Cups</a></td>
+                <td>10</td>
+                <td>15/04/2016</td>
+                <td>100</td>
+                <td>100</td>
+                <td>100</td>
+              </tr>
+              <tr>
+                <th scope="row">7</th>
+                <td colspan='3'><a data-toggle="modal" data-target="#myModal" class='list-item'>Honey Bourbon Cigars</a></td>
+                <td>10</td>
+                <td>15/04/2016</td>
+                <td>100</td>
+                <td>100</td>
+                <td>100</td>
+              </tr>
+              <tr>
+                <th scope="row">8</th>
+                <td colspan='3'><a data-toggle="modal" data-target="#myModal" class='list-item'>Tums Chewy Delights</a></td>
+                <td>10</td>
+                <td>15/04/2016</td>
+                <td>100</td>
+                <td>100</td>
+                <td>100</td>
+              </tr>
+              <tr>
+                <th scope="row">9</th>
+                <td colspan='3'><a data-toggle="modal" data-target="#myModal" class='list-item'>E6 Energy Shot</a></td>
+                <td>10</td>
+                <td>15/04/2016</td>
+                <td>100</td>
+                <td>100</td>
+                <td>100</td>
+              </tr>
+              <tr>
+                <th scope="row">10</th>
+                <td colspan='3'><a data-toggle="modal" data-target="#myModal" class='list-item'>Ready-To-Drink Kool-Aid</a></td>
+                <td>10</td>
+                <td>15/04/2016</td>
+                <td>100</td>
+                <td>100</td>
+                <td>100</td>
+              </tr>
+              <tr>
+                <th scope="row">11</th>
+                <td colspan='3'><a data-toggle="modal" data-target="#myModal" class='list-item'>Premium Lemonade</a></td>
+                <td>10</td>
+                <td>15/04/2016</td>
+                <td>100</td>
+                <td>100</td>
+                <td>100</td>
+              </tr>
+              <tr>
+                <th scope="row">12</th>
+                <td colspan='3'><a data-toggle="modal" data-target="#myModal" class='list-item'>Totino's Pizza Chips</a></td>
+                <td>10</td>
+                <td>15/04/2016</td>
+                <td>100</td>
+                <td>100</td>
+                <td>100</td>
+              </tr>
+              <tr>
+                <th scope="row">13</th>
+                <td colspan='3'><a data-toggle="modal" data-target="#myModal" class='list-item'>Little Debbie Doughnuts</a></td>
+                <td>10</td>
+                <td>15/04/2016</td>
+                <td>100</td>
+                <td>100</td>
+                <td>100</td>
+              </tr>
+              <tr>
+                <th scope="row">14</th>
+                <td colspan='3'><a data-toggle="modal" data-target="#myModal" class='list-item'>Tropics Fresh Blends</a></td>
+                <td>10</td>
+                <td>15/04/2016</td>
+                <td>100</td>
+                <td>100</td>
+                <td>100</td>
+              </tr>
+              <tr>
+                <th scope="row">15</th>
+                <td colspan='3'><a data-toggle="modal" data-target="#myModal" class='list-item'>Ballpark Burgers</a></td>
+                <td>10</td>
+                <td>15/04/2016</td>
+                <td>100</td>
+                <td>100</td>
+                <td>100</td>
+              </tr>
+              <tr>
+                <th scope="row">16</th>
+                <td colspan='3'><a data-toggle="modal" data-target="#myModal" class='list-item'>Pure Earth Juices</a></td>
+                <td>10</td>
+                <td>15/04/2016</td>
+                <td>100</td>
+                <td>100</td>
+                <td>100</td>
+              </tr>
+              <tr>
+                <th scope="row">17</th>
+                <td colspan='3'><a data-toggle="modal" data-target="#myModal" class='list-item'>Tic Tac Mixers</a></td>
+                <td>10</td>
+                <td>15/04/2016</td>
+                <td>100</td>
+                <td>100</td>
+                <td>100</td>
+              </tr>
+              <tr>
+                <th scope="row">18</th>
+                <td colspan='3'><a data-toggle="modal" data-target="#myModal" class='list-item'>Pringles Tortilla Crisps</a></td>
+                <td>10</td>
+                <td>15/04/2016</td>
+                <td>100</td>
+                <td>100</td>
+                <td>100</td>
+              </tr>
+              <tr>
+                <th scope="row">19</th>
+                <td colspan='3'><a data-toggle="modal" data-target="#myModal" class='list-item'>Klondike the Candy</a></td>
+                <td>10</td>
+                <td>15/04/2016</td>
+                <td>100</td>
+                <td>100</td>
+                <td>100</td>
+              </tr>
+              <tr>
+                <th scope="row">20</th>
+                <td colspan='3'><a data-toggle="modal" data-target="#myModal" class='list-item'>Snickers Xtreme</a></td>
+                <td>10</td>
+                <td>15/04/2016</td>
+                <td>100</td>
+                <td>100</td>
+                <td>100</td>
+              </tr>
+              <tr>
+                <th scope="row">21</th>
+                <td colspan='3'><a data-toggle="modal" data-target="#myModal" class='list-item'>Airheads</a></td>
+                <td>10</td>
+                <td>15/04/2016</td>
+                <td>100</td>
+                <td>100</td>
+                <td>100</td>
+              </tr>
+              <tr>
+                <th scope="row">22</th>
+                <td colspan='3'><a data-toggle="modal" data-target="#myModal" class='list-item'>Rum Coconut Patties</a></td>
+                <td>10</td>
+                <td>15/04/2016</td>
+                <td>100</td>
+                <td>100</td>
+                <td>100</td>
+              </tr>
+              <tr>
+                <th scope="row">23</th>
+                <td colspan='3'><a data-toggle="modal" data-target="#myModal" class='list-item'>Doritos</a></td>
+                <td>10</td>
+                <td>15/04/2016</td>
+                <td>100</td>
+                <td>100</td>
+                <td>100</td>
+              </tr>
+              <tr>
+                <th scope="row">24</th>
+                <td colspan='3'><a data-toggle="modal" data-target="#myModal" class='list-item'>Life Savers</a></td>
+                <td>10</td>
+                <td>15/04/2016</td>
+                <td>100</td>
+                <td>100</td>
+                <td>100</td>
+              </tr>
+              <tr>
+                <th scope="row">25</th>
+                <td colspan='3'><a data-toggle="modal" data-target="#myModal" class='list-item'>Coke</a></td>
+                <td>10</td>
+                <td>15/04/2016</td>
+                <td>100</td>
+                <td>100</td>
+                <td>100</td>
+              </tr>
+              <tr>
+                <th scope="row">26</th>
+                <td colspan='3'><a data-toggle="modal" data-target="#myModal" class='list-item'>Nature Valley Bar</a></td>
+                <td>10</td>
+                <td>15/04/2016</td>
+                <td>100</td>
+                <td>100</td>
+                <td>100</td>
+              </tr>
+              <tr>
+                <th scope="row">27</th>
+                <td colspan='3'><a data-toggle="modal" data-target="#myModal" class='list-item'>Red Bull 355ml</a></td>
+                <td>10</td>
+                <td>15/04/2016</td>
+                <td>100</td>
+                <td>100</td>
+                <td>100</td>
+              </tr>
+              <tr>
+                <th scope="row">28</th>
+                <td colspan='3'><a data-toggle="modal" data-target="#myModal" class='list-item'>5 gum</a></td>
+                <td>10</td>
+                <td>15/04/2016</td>
+                <td>100</td>
+                <td>100</td>
+                <td>100</td>
+              </tr>
+              <tr>
+                <th scope="row">29</th>
+                <td colspan='3'><a data-toggle="modal" data-target="#myModal" class='list-item'>Trail Mix</a></td>
+                <td>10</td>
+                <td>15/04/2016</td>
+                <td>100</td>
+                <td>100</td>
+                <td>100</td>
+              </tr>
+              <tr>
+                <th scope="row">30</th>
+                <td colspan='3'><a data-toggle="modal" data-target="#myModal" class='list-item'>Cigarettes</a></td>
+                <td>10</td>
+                <td>15/04/2016</td>
+                <td>100</td>
+                <td>100</td>
+                <td>100</td>
+              </tr>
+              <tr>
+                <th scope="row">31</th>
+                <td colspan='3'><a data-toggle="modal" data-target="#myModal" class='list-item'>Crystal Light</a></td>
+                <td>10</td>
+                <td>15/04/2016</td>
+                <td>100</td>
+                <td>100</td>
+                <td>100</td>
+              </tr>
+              <tr>
+                <th scope="row">32</th>
+                <td colspan='3'><a data-toggle="modal" data-target="#myModal" class='list-item'>OH Henrey</a></td>
+                <td>10</td>
+                <td>15/04/2016</td>
+                <td>100</td>
+                <td>100</td>
+                <td>100</td>
+              </tr>
+              <tr>
+                <th scope="row">33</th>
+                <td colspan='3'><a data-toggle="modal" data-target="#myModal" class='list-item'>Monster Energy Drink</a></td>
+                <td>10</td>
+                <td>15/04/2016</td>
+                <td>100</td>
+                <td>100</td>
+                <td>100</td>
+              </tr>
+              <tr>
+                <th scope="row">34</th>
+                <td colspan='3'><a data-toggle="modal" data-target="#myModal" class='list-item'>Cheetos</a></td>
+                <td>10</td>
+                <td>15/04/2016</td>
+                <td>100</td>
+                <td>100</td>
+                <td>100</td>
+              </tr>
+              <tr>
+                <th scope="row">35</th>
+                <td colspan='3'><a data-toggle="modal" data-target="#myModal" class='list-item'>Twinkies</a></td>
+                <td>10</td>
+                <td>15/04/2016</td>
+                <td>100</td>
+                <td>100</td>
+                <td>100</td>
+              </tr>
+
+            </tbody>
+          </table>
+
+            </div>
+          </div>
+        </div>
+
+  <!--       <div class="row">
+          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
+            <hr class='divider'>
+        </div> -->
+      </section>
+    </div> <!-- end wrapper -->
+  </div> <!-- end content -->
+
+  <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                  <h4 class="modal-title" id="myModalLabel">Item</h4>
+                </div>
+                <div class="modal-body">
+                  <div class="row">
+                      <div class='col-lg-6'>
+                          <div class='slide-image'>
+                              <div class='thumbnail' style='border: 0px black solid'>
+                                <img src='assets/images/doritos.jpeg'style='min-width:200px;min-height:200px;'>
+                              </div>
+                          </div>
+                      </div>
+                      <div class='col-lg-6'>
+
+                          <div class='row'>
+                            <div class='col-md-3 col-sm-12 text-center'>
+                              <h5>Stock Left</h5>
+                              <h4>23</h4>
+                            </div>
+                            <div class='col-md-3 col-sm-12 text-center'>
+                              <h5>Last Order</h5>
+                              <h4>23</h4>
+                            </div>
+                            <div class='col-md-3 col-sm-12 text-center'>
+                              <h5 class='cost'>Cost</h5>
+                              <h4>23</h4>
+                            </div>
+                            <div class='col-md-3 col-sm-12 text-center'>
+                              <h5>Retail Price</h5>
+                              <h4>23</h4>
+                            </div>
+                          </div>
+                        <div class='row'>
+                          <div class='col-md-12 col-lg-6'>
+                            <div class='slide-image'>
+                                <div  class='thumbnail' style='border: 0px black solid'>
+                                  <img src='assets/images/graph.gif' style='min-width:250px;min-height:100px;'>
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+                  </div>
+                </div>
+                <div class="modal-footer">
+                  <div style='padding: 10px;'>Edit</div>
+                  <div style='padding: 10px;'>Delete </div>
+                </div>
+              </div>
+            </div>
+          </div>
+  </body>
+
+
+  <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+  <script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script src="javascript/main.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+</html>
